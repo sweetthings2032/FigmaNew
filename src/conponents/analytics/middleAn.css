@@ -1,0 +1,74 @@
+.totalSalesContainer {
+  width: 260px;
+  align-content: space-between;
+  font-weight: 50;
+  margin-bottom: 2px;
+  flex: 1;
+  margin: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.114);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.104);
+}
+.totalSalesDown {
+  width: 240px;
+  font-weight: 50;
+  display: flex;
+  padding: 5px;
+}
+.totalSalesTop {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 5px;
+
+  margin-bottom: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.114);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1004);
+}
+.amount {
+  color: #01521c;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.amt {
+  display: flex;
+  align-content: flex-end;
+  padding-right: 90px;
+  margin-left: 10px;
+}
+.atm {
+  color: #01521c;
+}
+.dailyProfitContainer {
+  width: 100%;
+  align-content: space-between;
+  font-weight: 50;
+  margin-bottom: 7px;
+  flex: 2;
+  margin: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.114);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.104);
+}
+.middleContainer {
+  display: flex;
+}
+
+.hr {
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  padding: 0%;
+}
+.totalSalesAmtt {
+  margin-left: 70px;
+}
+/* .totalProfitContainer {
+  margin-bottom: 5px;
+} */

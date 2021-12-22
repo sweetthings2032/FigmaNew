@@ -1,0 +1,137 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh-50px);
+  background-color: white;
+  position: sticky;
+  top: 500px;
+  width: 180px;
+
+  margin: 3%;
+}
+.sidebarList {
+  list-style: none;
+}
+.sidebarWrapper {
+  padding: 10px;
+}
+.sidebarListItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 2px;
+  font-size: 5px important;
+  padding-bottom: 2px;
+}
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: #01521c;
+  color: white;
+  box-shadow: grey;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form.example input[type="text"] {
+  padding: 11px;
+  font-size: 10px;
+  width: 60%;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+  margin: 0;
+  margin-left: 5px;
+  /* border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px; */
+}
+
+form.example button {
+  /* float: right; */
+  padding: 3px;
+  background: #01521c;
+  color: white;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin: 0;
+  width: 17%;
+  /* border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px; */
+}
+
+form.example button:hover {
+  background: #058a47;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.topbarIconContainer {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.topbarIconContainer:hover {
+  background-color: #01521c;
+  border-radius: 5px;
+  color: #f1f1f1;
+}
+.profiltlink {
+  justify-content: stretch;
+}
+.profilPic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.profil {
+  align-content: center;
+  /* display: flex; */
+  padding-left: auto;
+  padding-right: auto;
+  margin: 10px;
+}
+.profilname {
+  cursor: pointer;
+  /* margin-top: 20px; */
+  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-size: 17px;
+}
+.profilbtn {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #01521c;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  margin: 0;
+  font-size: 10px;
+  border-radius: 5px;
+}
+button:hover {
+  background: #058a47;
+}
+.profliLinkTitle {
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 20px;
+}

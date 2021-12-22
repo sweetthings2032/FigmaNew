@@ -1,0 +1,60 @@
+.topan {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.topAnItems {
+  flex: 1;
+  margin: 20px 20px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.114);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.104);
+}
+.topAnTitle {
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  align-content: space-around;
+  font-weight: 50;
+  margin-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topAnChart {
+  width: 200px;
+}
+progress {
+  height: 3px;
+  background: rgb(4, 73, 30);
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(235, 235, 238);
+}
+.topAnAmount {
+  width: 200px;
+  display: flex;
+  align-content: space-between;
+  font-size: 20px;
+  font-weight: bold important;
+}
+.topdegreesales {
+  color: green;
+  font-size: 10px;
+  flex: 2;
+  margin-top: 8px;
+}
+.topdegree {
+  color: orange;
+  font-size: 10px;
+  flex: 2;
+  margin-top: 8px;
+}
+.monthlygoal {
+  flex: 2;
+}
+.sales {
+  flex: 2;
+}

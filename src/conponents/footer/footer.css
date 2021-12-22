@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(253, 251, 251);
+  display: flex;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+}
+.footerContainer {
+  align-content: space-between;
+  flex: 1;
+}
+.hThree {
+  margin-bottom: 10px;
+}
+.hSix {
+  margin: 5px;
+}
